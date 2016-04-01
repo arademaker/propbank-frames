@@ -81,7 +81,7 @@
       </aliases>
       <note>COMPARABLE-J NOTES: Added by Julia based on WSJ data, compare-v.01. Corresponds to VNcls amalgamate-22.2-2. (from comparable.01-j)</note>
       <roles>
-        <role descr="agent, entity doing the comparing" f="" n="0">
+        <role descr="agent, entity doing the comparing" f="pag" n="0">
           <vnrole vncls="22.2-2" vntheta="agent"/>
         </role>
         <role descr="first item (or all) in comparison" f="ppt" n="1">
@@ -108,5 +108,26 @@
         <arg f="" n="2">to Pink Floyd - The Dark Side of The Moon</arg>
       </example>
     </roleset>
+    <roleset id="comparable.03" name="similar">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">comparable</alias>
+      </aliases>
+      <roles>
+        <role descr="first item (or all) that are similar" f="ppt" n="1"/>
+        <role descr="second item" f="ppt" n="2"/>
+      </roles>
+      <example name="Arg1 and Arg2" src="Ulf" type="">
+        <text>The insurance company paid for a rental car comparable to the one damaged in the accident.</text>
+        <arg f="" n="1">a rental car</arg>
+        <rel f="">comparable</rel>
+        <arg f="" n="2">to the one damaged in the accident</arg>
+      </example>
+      <example name="only Arg1" src="Ulf" type="">
+        <text>These are comparable books.</text>
+        <arg f="" n="1">[These] [books]</arg>
+        <rel f="">comparable</rel>
+      </example>
+    </roleset>
+
   </predicate>
 </frameset>
