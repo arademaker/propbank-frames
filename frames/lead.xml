@@ -57,6 +57,7 @@
       <aliases>
         <alias framenet="Leadership" pos="v" verbnet="">lead</alias>
         <alias framenet="Leadership" pos="n" verbnet="">lead</alias>
+        <alias framenet="" pos="l" verbnet="">take_lead</alias>
         <alias framenet="Leadership" pos="n" verbnet="">leadership</alias>
         <alias framenet="" pos="n" verbnet="">leading</alias>
       </aliases>
@@ -187,8 +188,6 @@
         <arg f="" n="2">in cutting off trading business to securities firms that do program trading</arg>
       </example>
     </roleset>
-
-
   </predicate>
   <predicate lemma="lead_off">
     <roleset id="lead_off.04" name="begin">
