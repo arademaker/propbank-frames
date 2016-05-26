@@ -1,7 +1,7 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="sublimate">
-    <roleset id="sublimate.01" name="to have a purifying, ennobling effect; to change from solid to gas or vice versa">
+    <roleset id="sublimate.01" name="to have a purifying, ennobling effect">
       <aliases>
         <alias framenet="" pos="v" verbnet="">sublimate</alias>
       </aliases>
@@ -23,9 +23,10 @@
       </example>
     <note>SUBLIMATE-V NOTES: Framed by Claire (from sublimate.01-v)</note>
 </roleset>
-  <roleset id="sublimation.02" name="Transition directly from a solid state to a gas state.">
+  <roleset id="sublimate.02" name="Transition directly from a solid state to a gas state.">
 <aliases>
 <alias framenet="" pos="n" verbnet="">sublimation</alias>
+<alias framenet="" pos="v" verbnet="">sublimate</alias>
 </aliases>
 <roles>
 <role descr="cause" f="pag" n="0"/>
